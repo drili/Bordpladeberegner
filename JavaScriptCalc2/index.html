@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+      <head>
+            <meta charset="utf-8">
+            <title>Calc</title>
+
+            <link rel="stylesheet" href="style.css">
+
+            <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+            <script src="calc.js"></script>
+      </head>
+      <body>
+            <div class="container">
+                  <div class="row">
+                        <div class="col-lg-12">
+                              Calc Test
+                        </div>
+                  </div>
+            </div>
+
+            <div class="container">
+                  <div class="row">
+                        <div class="col-lg-3 shopItem">
+                              <img class="shopItemImage" src="https://picsum.photos/150/150">
+                              <h4 class="shopTitle">Massiv Træ</h4>
+                              <p class="shopItemPrice">3000</p>
+                              <button class="btn btn-secondary shopItemButton">Vælg</button>
+                        </div>
+                        <div class="col-lg-3 shopItem">
+                              <img class="shopItemImage" src="https://picsum.photos/150/150">
+                              <h4 class="shopTitle">Fenix</h4>
+                              <p class="shopItemPrice">2000</p>
+                              <button class="btn btn-secondary shopItemButton">Vælg</button>
+                        </div>
+                        <div class="col-lg-3 shopItem">
+                              <img class="shopItemImage" src="https://picsum.photos/150/150">
+                              <h4 class="shopTitle">Keramik</h4>
+                              <p class="shopItemPrice">5000</p>
+                              <button class="btn btn-secondary shopItemButton">Vælg</button>
+                        </div>
+                        <div class="col-lg-3 shopItem">
+                              <img class="shopItemImage" src="https://picsum.photos/150/150">
+                              <h4 class="shopTitle">Granit</h4>
+                              <p class="shopItemPrice">4800</p>
+                              <button class="btn btn-secondary shopItemButton">Vælg</button>
+                        </div>
+                  </div>
+            </div>
+
+            <br>
+
+            <div class="container cartItemsAdded">
+                  <div class="row">
+                        <div class="col-lg-12">
+                              <div class="cart">
+                                    <div class="cartRow">
+                                          <p class="cartItemTitle"></p>
+                                          <p class="cartItemPrice"></p>
+                                          <div class="cartRowBtn">
+                                          </div>
+                                    </div>
+
+                                    <div class="cartItems">
+
+                                    </div>
+
+                                    <div class="cartTotal">
+
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+
+            <br>
+
+            <div class="container cartPickTableStyle" id="cartPickTableId">
+                  <div class="row">
+                        <div class="col-lg-6">
+                              <div class="cartTableTypes" id="cartTableTypeOne">
+                                    <img src="https://via.placeholder.com/200" alt="">
+                              </div>
+                              <p>Vinkelbordplade</p>
+                              <button class="btn btn-success" onclick="typeOne()">Vælg</button>
+                        </div>
+                        <div class="col-lg-6">
+                              <div class="cartTableTypes" id="cartTableTypeTwo">
+                                    <img src="https://via.placeholder.com/200" alt="">
+                              </div>
+                              <p>Normal bordplade</p>
+                              <button class="btn btn-success" onclick="typeTwo()">Vælg</button>
+                        </div>
+                  </div>
+            </div>
+
+            <br>
+
+            <div class="container" id="cartInputValuesSection">
+                  <div class="row">
+                        <div class="col-lg-4">
+                              <div id="cartInputValues">
+
+                              </div>
+                        </div>
+
+                        <div class="col-lg-8">
+                              <div id="cartCalcValues">
+
+                              </div>
+                        </div>
+                  </div>
+            </div>
+
+            <br>
+
+            <div class="container" id="cartCalculated">
+                  <div class="row">
+                        <div class="col-lg-12">
+                              <div id="calculatedValueId">
+
+                              </div>
+                        </div>
+                  </div>
+            </div>
+
+            <script
+			  src="https://code.jquery.com/jquery-3.4.1.js"
+			  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+			  crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      </body>
+</html>
